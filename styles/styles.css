@@ -15,7 +15,8 @@
   --background-color: white;
   --light-color: #f8f8f8;
   --dark-color: #505050;
-  --text-color: #131313;
+  /* --text-color: #131313; */
+  --text-color: #5e636e;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -73,10 +74,10 @@
 body {
   display: none;
   margin: 0;
-  /* background-color: var(--background-color); */
-  background-color:gray;
+  background-color: var(--background-color);
   color: var(--text-color);
-  font-family: var(--body-font-family);
+  font-family: "Times New Roman", Georgia, Serif;
+  /* font-family: var(--body-font-family); */
   font-size: var(--body-font-size-m);
   line-height: 1.6;
 }
