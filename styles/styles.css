@@ -22,8 +22,8 @@
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
-
+  /* --heading-font-family: 'Playfair Display'; */
+--heading-font-family: math;
   /* body sizes */
   --body-font-size-m: 22px;
   --body-font-size-s: 19px;
@@ -76,8 +76,7 @@ body {
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  font-family: "Times New Roman", Georgia, Serif;
-  /* font-family: var(--body-font-family); */
+  font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
 }
